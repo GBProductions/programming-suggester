@@ -5,3 +5,8 @@ body {
 .jumbotron {
     background-image: url('../img/white.jpg')
 }
+
+#title {
+    text-emphasis: 10;
+    text-align: center;
+}
