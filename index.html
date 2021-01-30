@@ -16,82 +16,83 @@
     <div class="container">
         <h3>Answer these questions, and find out which coding language you should learn (we promise it is science and we actually aren't harvesting your data).</h3>
         <br>
-            <form id="formQuiz">
-                <div>
-                    <h6>Question 1: What country would you want to visit on vacation?</h6>
-                    <div class="radio">
-                        <label>
-                            <input type="radio" name="question1" value="Greece"><img src="./img/greece.jpeg" class="buttons">
-                        </label>
-                    </div>
-                    <div class="radio">
-                        <label>
-                            <input type="radio" name="question1" value="France"><img src="./img/france.jpg" class="buttons">
-                        </label>
-                    </div>
+        <form id="formQuiz">
+            <h6>Question 1: What country would you want to visit on vacation?</h6>
+            <div class="row">
+                <div class="radio" class="column">
+                    <label>
+                        <input type="radio" name="question1" value="Greece"><img src="./img/questions/greece.jpeg" class="buttons">
+                    </label>
                 </div>
                 <br>
-                <div>
-                    <h6>Question 2: Which Disney movie is your childhood? </h6>
-                    <div class="radio">
-                        <label>
-                            <input type="radio" name="question2" value="Mulan"><img src="./img/mulan.jpg" class="buttons">
-                        </label>
-                    </div>
-                    <div class="radio">
-                        <label>
-                            <input type="radio" name="question2" value="Cinderella"><img src="./img/cinderella.jpeg" class="buttons">
-                        </label>
-                    </div>
+                <div class="radio" class="column">
+                    <label>
+                        <input type="radio" name="question1" value="France"><img src="./img/questions/france.jpg" class="buttons">
+                    </label>
                 </div>
-                <br>
-                <div>
-                    <h6>Question 3: Are you cool?</h6>
-                    <div class="radio">
-                        <label>
-                            <input type="radio" name="question3" value="Yes"><img src="./img/cool.jpeg" class="buttons">
-                        </label>
-                    </div>
-                    <div class="radio">
-                        <label>
-                            <input type="radio" name="question3" value="No"><img src="./img/uncool.jpeg" class="buttons">
-                        </label>
-                    </div>
+            </div>
+            <br>
+            <h6>Question 2: Which Disney movie is your childhood? </h6>
+            <div class="row">
+                <div class="radio" class="column">
+                    <label>
+                        <input type="radio" name="question2" value="Mulan"><img src="./img/questions/mulan.jpg" class="buttons">
+                    </label>
                 </div>
-                <br>
-                <div>
-                    <h6>Question 4: Which Dreamworks film is your childhood? </h6>
-                    <div class="radio">
-                        <label>
-                            <input type="radio" name="question4" value="Bee-Movie"><img src="./img/bee.jpeg" class="buttons">
-                        </label>
-                    </div>
-                    <div class="radio">
-                        <label>
-                            <input type="radio" name="question4" value="Shrek"><img src="./img/shrek.jpeg" class="buttons">
-                        </label>
-                    </div>
+                <div class="radio" class="column">
+                    <label>
+                        <input type="radio" name="question2" value="Cinderella"><img src="./img/questions/cinderella.jpeg" class="buttons">
+                    </label>
                 </div>
-                <br>
-                <div>
-                    <h6>Question 5: Which emoji do you use everyday?</h6>
-                    <div class="radio">
-                        <label>
-                            <input type="radio" name="question5" value="poop"><img src="./img/poo.jpeg" class="buttons">
-                        </label>
-                    </div>
-                    <div class="radio">
-                        <label>
-                            <input type="radio" name="question5" value="glasses"><img src="./img/sunglasses.jpeg" class="buttons">
-                        </label>
-                    </div>
+            </div>
+            <br>
+            <h6>Question 3: Are you cool?</h6>
+            <div class="row">
+                <div class="radio" class="column">
+                    <label>
+                        <input type="radio" name="question3" value="Yes"><img src="./img/questions/cool.jpeg" class="buttons">
+                    </label>
                 </div>
-                <button type="submit" class="btn-success">Submit</button>
+                <div class="radio" class="column">
+                    <label>
+                        <input type="radio" name="question3" value="No"><img src="./img/questions/uncool.jpeg" class="buttons">
+                    </label>
+                </div>
+            </div>
+            <br>
+            <h6>Question 4: Which Dreamworks film is your childhood?</h6>
+            <div class="row">
+                <div class="radio" class="column">
+                    <label>
+                        <input type="radio" name="question4" value="Bee-Movie"><img src="./img/questions/bee.jpeg" class="buttons">
+                    </label>
+                </div>
+                <div class="radio" class="column">
+                    <label>
+                        <input type="radio" name="question4" value="Shrek"><img src="./img/questions/shrek.jpeg" class="buttons">
+                    </label>
+                </div>
+            </div>
+            <br>
+            <h6>Question 5: Which emoji do you use everyday?</h6>
+            <div class="row">
+                <div class="radio" class="column">
+                    <label>
+                        <input type="radio" name="question5" value="poop"><img src="./img/questions/poo.jpeg" class="buttons">
+                    </label>
+                </div>
+                <div class="radio" class="column">
+                    <label>
+                        <input type="radio" name="question5" value="glasses"><img src="./img/questions/sunglasses.jpeg" class="buttons">
+                    </label>
+                </div>
+            </div>
+            <button type="submit" class="btn-success">Submit</button>
         </form>
-
-        <p class="hidden" id="ruby">You should learn Ruby</p>
-        <p class="hidden" id="csharp">You should learn C#</p>
-        <p class="hidden" id="javascript">You should learn JavaScript</p>
+        <br>
+        <h2 class="hidden" id="ruby">You should learn Ruby</h2>
+        <h2 class="hidden" id="csharp">You should learn C#</h2>
+        <h2 class="hidden" id="javascript">You should learn JavaScript</h2>
     </div>
 </body>
 </html>
