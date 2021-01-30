@@ -10,3 +10,7 @@ body {
     text-emphasis: 10;
     text-align: center;
 }
+
+.hidden {
+    display: none;
+}
