@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $("form#quiz").submit(function(event) {
+    $("#formQuiz").submit(function(event) {
         event.preventDefault();
         let vacation = $("input:radio[name=question1]:checked").val();
         let disney = $("input:radio[name=question2]:checked").val();
