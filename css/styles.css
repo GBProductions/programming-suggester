@@ -13,6 +13,12 @@ body {
 
 .hidden {
     display: none;
+    background-color: red;
+    border-color: black;
+    border-radius: 10%;
+    border-style: groove;
+    padding: 5px;
+    text-align: center;
 }
 
 .buttons {
@@ -24,4 +30,13 @@ body {
     float: left;
     width: 50%;
     padding: 5%;
+}
+
+.box {
+    background-color: white;
+    border-color: black;
+    border-radius: 10%;
+    border-style: groove;
+    padding: 5px;
+    text-align: center;
 }
