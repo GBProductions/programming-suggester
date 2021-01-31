@@ -9,12 +9,18 @@ $(document).ready(function() {
     
         if (vacation === "Greece" && disney === "Cinderella") {
             $("#ruby").show();
+            $("#javascript").hide();
+            $("#csharp").hide();
         }
             else if (vacation === "Greece" && disney === "Mulan") {
-            $("#javascript").show(); 
+            $("#javascript").show();
+            $("#ruby").hide();
+            $("#csharp").hide();
         }
             else if (vacation === "France") {
-                $("#csharp").show();
+            $("#csharp").show();
+            $("#javascript").hide();
+            $("#ruby").hide();
         }
 
     });
